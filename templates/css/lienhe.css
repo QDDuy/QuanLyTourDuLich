@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.single-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-contact {
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.icon-contact {
+  width: 50px;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+.icon-contact i {
+  font-size: 18px;
+  width: 50px;
+}
+
+.title-contact {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.title-contact h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+.summary-contact a {
+  text-decoration: none;
+  color: #333;
+}

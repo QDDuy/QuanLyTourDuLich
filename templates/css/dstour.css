@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.title-page {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: 40px;
+  border-bottom: 1px solid #ebebeb;
+}
+.title-page a {
+  color: #333;
+  text-decoration: none;
+}
+.product-main {
+  width: 346px;
+  border-radius: 15px;
+  margin-bottom: 60px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.name-tour {
+  margin-bottom: 50px;
+}
+.name-tour a {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.tour-startdate {
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  padding: 15px 0;
+  color: #707070;
+}
+.date-start,
+.location-start {
+  display: flex;
+}
+
+.tour-detail {
+  border: 1px solid #ebebeb;
+
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.tour-startdate p {
+  margin: 15px;
+}
+
+.tour-startdate i {
+  text-align: center;
+
+  line-height: 54px;
+}
+
+.tour-price {
+  margin-top: 50px;
+}
+
+.tour-price p {
+  color: #fe7d15;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+button.btn.btn-primary {
+  width: 150px;
+  border-radius: inherit;
+  font-weight: 600;
+}
+.list-info-tour {
+  margin-top: 50px;
+}
+
+.tab-container {
+}
+.tab-container .tab-header {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.tab-header li {
+  min-width: 120px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all linear 0.2s;
+  border: 1px solid #e2e2e2;
+}
+.tab-header li:hover {
+  background-color: #8dc700;
+  color: white;
+}
+.tab-header li.active {
+  background-color: #8dc700;
+  color: white;
+}
+
+.tab-content {
+  padding: 15px 20px;
+}
+
+.tab-content .tab {
+  line-height: 1.5em;
+  display: none;
+}
+.tab-content .tab.active {
+  display: block;
+}
+
+.tab img {
+  width: 600px;
+  height: 433px;
+  margin: 0 25%;
+  margin-bottom: 100px;
+}
+.custom-placeholder::placeholder {
+  color: #333 !important;
+}
+
+.title-name {
+  background-color: #99c53c;
+  width: max-content;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ef2;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.title-name p {
+  padding: 0 15px;
+  font-weight: 700;
+  /* margin-bottom: 22px; */
+}
